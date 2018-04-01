@@ -1,4 +1,4 @@
-package com.codedsun.practice.java8;
+package java8;
 
 public class InterfaceClassTest implements InterfaceTest,InterfaceTest1 {
     @Override

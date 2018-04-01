@@ -1,4 +1,4 @@
-package com.codedsun.practice.java8;
+package java8;
 
 /*Java8 Introduces for each comparatable interface*/
 

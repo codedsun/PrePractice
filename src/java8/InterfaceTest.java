@@ -1,4 +1,4 @@
-package com.codedsun.practice.java8;
+package java8;
 
 public interface InterfaceTest {
 
