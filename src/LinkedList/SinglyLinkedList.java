@@ -1,6 +1,12 @@
 package LinkedList;
 
-import java.util.Scanner;
+/*
+
+ Single Linked List Implementation
+ @author : codedsun
+ @date : 02/April/2018
+
+ */
 
 public class SinglyLinkedList<E> {
 
