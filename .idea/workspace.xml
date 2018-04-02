@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterfaceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java8/InterfaceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InterfaceTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java8/InterfaceTest1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircularLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircularLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="347">
+              <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
               <folding>
                 <element signature="e#394#395#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
@@ -160,6 +144,35 @@
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
                 <element signature="e#1174#1175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1261#1262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/NULLCheck.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -508,17 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java8/InterfaceTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java9/HttpClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -637,10 +640,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="false" />
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,10 +756,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="false" />
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,10 +816,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="false" />
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,10 +887,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="false" />
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#251#252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/CircularLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="347">
+          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding>
             <element signature="e#394#395#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
@@ -1012,6 +1015,33 @@
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
             <element signature="e#1174#1175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
           </folding>
         </state>
       </provider>
