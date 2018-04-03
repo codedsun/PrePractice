@@ -1,15 +1,6 @@
-package LinkedList;
+package LeetCode.LinkedList;
 
-/*
-
- Single Linked List Implementation
- @author : codedsun
- @date : 02/April/2018
-
- */
-
-public class SinglyLinkedList<E> {
-
+public class ReverseLL<E> {
     public static class Node<E> {
 
         private Node<E> next;
@@ -35,8 +26,8 @@ public class SinglyLinkedList<E> {
 
     }
 
-    public Node<E> head = null;
-    public Node<E> tail = null;
+    private Node<E> head = null;
+    private Node<E> tail = null;
     private static int size = 0;
 
     public boolean isEmpty(){
@@ -56,9 +47,8 @@ public class SinglyLinkedList<E> {
     public void addFirst(E e){
         Node<E> newest = new Node(e, head);
         head = newest;
-        if(size == 0) {
+        if(size == 0)
             tail = newest;
-        }
         size++;
     }
 
@@ -67,10 +57,9 @@ public class SinglyLinkedList<E> {
         if(size == 0){
             head = tail = newest;
         }
-        else {
+        else
             tail.setNext(newest);
-            tail = newest;
-        }
+        tail = newest;
         size++;
     }
 
@@ -80,14 +69,25 @@ public class SinglyLinkedList<E> {
         size--;
 
     }
-
+    /*
+     An Awesome method for reversing linked list
+     */
+    public void reverse(){
+        Node<E> newHead = null;
+        while(head!=null){
+            Node<E> next = head.getNext();
+            head.next = newHead;
+            newHead = head;
+            head = next;
+        }
+        head = newHead;
+        printList();
+    }
     public void printList(){
         Node<E> node = head;
         while(node!=null){
             System.out.print(node.getElement()+" ");
             node = node.getNext();
         }
-     }
-
-
+    }
 }
