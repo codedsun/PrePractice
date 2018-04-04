@@ -76,7 +76,7 @@ public class SinglyLinkedList<E> {
 
     public E removeFirst(){
         if(isEmpty()) return null;
-        E data = head.getElement()
+        E data = head.getElement();
         head = head.getNext();
         size--;
         return data;

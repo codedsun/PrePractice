@@ -1,6 +1,9 @@
 package Stack;
 
 import LinkedList.SinglyLinkedList;
+/*
+    LinkedList Implementation of Stack
+ */
 
 public class LinkedStack<E> implements Stack<E>  {
     private SinglyLinkedList<E> stack = new SinglyLinkedList<>();
