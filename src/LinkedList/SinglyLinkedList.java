@@ -74,10 +74,12 @@ public class SinglyLinkedList<E> {
         size++;
     }
 
-    public void removeFirst(){
-        if(isEmpty()) return;
+    public E removeFirst(){
+        if(isEmpty()) return null;
+        E data = head.getElement()
         head = head.getNext();
         size--;
+        return data;
 
     }
 
@@ -87,6 +89,10 @@ public class SinglyLinkedList<E> {
             System.out.print(node.getElement()+" ");
             node = node.getNext();
         }
+     }
+
+     public int getSize(){
+        return size;
      }
 
 
