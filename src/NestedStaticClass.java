@@ -28,7 +28,7 @@ public class NestedStaticClass {
     public static void main(String[] args) {
        NestedStaticClass nestedStaticClass = new NestedStaticClass();
 
-       nestedStaticClass.getTAG();
+        System.out.println(nestedStaticClass.getTAG());
        /*
        You can't access the static class heere but you can access by creating the object
         */
