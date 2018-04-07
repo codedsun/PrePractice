@@ -1,4 +1,4 @@
-package LeetCode;
+package CompetetiveProgramming.LeetCode;
 
 public class DeleteNode {
 

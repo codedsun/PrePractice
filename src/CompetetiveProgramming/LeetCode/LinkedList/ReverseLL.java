@@ -1,4 +1,4 @@
-package LeetCode.LinkedList;
+package CompetetiveProgramming.LeetCode.LinkedList;
 
 public class ReverseLL<E> {
     public static class Node<E> {

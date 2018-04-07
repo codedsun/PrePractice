@@ -1,4 +1,4 @@
-package LeetCode.LinkedList;
+package CompetetiveProgramming.LeetCode.LinkedList;
 
 import LinkedList.SinglyLinkedList;
 import com.sun.istack.internal.NotNull;

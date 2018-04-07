@@ -1,4 +1,4 @@
-package LeetCode.LinkedList;
+package CompetetiveProgramming.LeetCode.LinkedList;
 
 /*
  created by @author : codedsun
