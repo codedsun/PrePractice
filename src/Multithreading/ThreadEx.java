@@ -2,27 +2,17 @@ package Multithreading;
 
 public class ThreadEx extends Thread{
 
-    public static void main(String[] args) {
-        Thread t= new Thread();
-        t.setName("Suneet ");
-        t.run();
-        System.out.println(t.getName());
-        //t.interrupt();
-    }
-
     @Override
     public void run() {
-        System.out.println("GHello");
+        System.out.println("Thread " +currentThread().getName()+" is Running");
     }
+}
 
-    @Override
-    public synchronized void start() {
-        System.out.println("Thread running");
-    }
-
-    @Override
-    public void interrupt() {
-
-        System.out.println("Thread Interrupted");
+class Multithread {
+    public static void main(String[] args) {
+        for(int i =1;i<=5;i++) {
+            ThreadEx threadEx = new ThreadEx();
+            threadEx.run();
+        }
     }
 }
