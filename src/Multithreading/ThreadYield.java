@@ -1,5 +1,8 @@
 package Multithreading;
 
+import java.util.TimeZone;
+import java.util.Timer;
+
 public class ThreadYield extends Thread {
     @Override
     public void run() {
@@ -25,3 +28,29 @@ class Yield{
 
     }
 }
+
+class ThreadSleep implements Runnable{
+
+    @Override
+    public void run() {
+
+        int i = 0;
+        while (i < 4) {
+            try {
+                System.out.println("Hi " + System.currentTimeMillis());
+                i++;
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Thread t = new Thread(new ThreadSleep());
+        t.start();
+    }
+}
+
