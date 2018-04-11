@@ -5,7 +5,8 @@ import java.util.Stack;
 /*
     @author : codedsun
     Problem : https://www.hackerrank.com/challenges/largest-rectangle/problem
- */
+
+*/
 public class LargestRectangle {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
@@ -25,11 +26,6 @@ public class LargestRectangle {
               stack.push(i++);
           }
           else{
-              if(stack.isEmpty()){
-                  area = input[stack.peek()]*i;
-              }
-              else
-              {
                   int t = input[stack.peek()];
                   stack.pop();
                   if(stack.isEmpty()){
@@ -38,10 +34,11 @@ public class LargestRectangle {
                   else
                       area = input[t]*(i-stack.peek()-1);
               }
+          System.out.println(area);
               if(area>max_area){
                   max_area = area;
               }
-          }
+
       }
       while(!stack.isEmpty()){
           int top = stack.peek();
