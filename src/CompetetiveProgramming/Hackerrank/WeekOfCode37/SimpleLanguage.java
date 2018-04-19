@@ -17,7 +17,7 @@ public class SimpleLanguage {
 
             switch (s){
                 case "add" : number = sc.nextLong();
-                            if(x<number){
+                            if(x<(number+x)){
 
                                 x = number+x;
                             }
