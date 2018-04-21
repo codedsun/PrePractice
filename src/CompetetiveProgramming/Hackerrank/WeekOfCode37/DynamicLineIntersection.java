@@ -48,10 +48,9 @@ public class DynamicLineIntersection {
                 lines.add(new Line(k,b));
             }
             else if(c.equalsIgnoreCase("-")){
-
                 k = sc.nextInt();
                 b = sc.nextInt();
-                lines.remove(new Line(k,b));
+                System.out.println(lines.remove(new Line(k,b)));
             }
             else if(c.equalsIgnoreCase("?")){
                 int query = sc.nextInt();
