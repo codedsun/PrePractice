@@ -4,7 +4,11 @@ package CompetetiveProgramming.GeeksForGeeks.LinkedList;
  * @author : codedsun
  * Created on 03/May/2018
  */
-public class DeleteAKey {
+
+/*
+Program to find length of linked list recursively
+ */
+public class LengthLL {
 
     static class Node{
         int data;
@@ -50,39 +54,26 @@ public class DeleteAKey {
 
     }
 
-    void deleteKey(int data){
-        if(size == 0 ) throw new IllegalStateException("No Such Element");
+    int getSize(Node h){
+
+        if(h==null){
+            return 0;
+        }
         else{
-            Node h = head;
-            Node prev = null;
-            while( h.data != data && h!=null){
-                prev = h;
-                h = h.next;
-            }
-            prev.next = prev.next.next;
+            return 1+getSize(h.next);
         }
 
-    }
-
-    void printList(){
-        Node h = head;
-        while(h!=null){
-            System.out.println(h.data);
-            h = h.next;
-        }
     }
 
     public static void main(String[] args) {
-        DeleteAKey deleteAKey = new DeleteAKey();
-        deleteAKey.addLast(2);
-        deleteAKey.addLast(4);
-        deleteAKey.addLast(3);
-        deleteAKey.addLast(5);
-        deleteAKey.deleteKey(3);
-        deleteAKey.printList();
+        LengthLL ll = new LengthLL();
+        ll.addLast(1);
+        ll.addLast(1);
+        ll.addLast(1);
+        ll.addLast(1);
+        ll.addLast(1);
+        ll.addLast(1);
+        System.out.println(ll.getSize(ll.head));
     }
 
-
 }
-
-
