@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * @author : codedsun
  * Created on 12/May/2018
+ * http://codeforces.com/contest/118/problem/A
  */
 
 public class Problem118A {
