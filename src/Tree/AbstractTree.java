@@ -33,3 +33,4 @@ public abstract class AbstractTree<E> implements Tree<E>{
         return size()==0;
     }
 }
+
