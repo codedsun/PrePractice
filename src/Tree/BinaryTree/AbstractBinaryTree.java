@@ -31,12 +31,12 @@ public abstract class AbstractBinaryTree<E> extends AbstractTree<E> implements B
 
     @Override
     public int numChildren(Position<E> p) throws IllegalArgumentException {
-        if(isExternal(p)) return 0;
+        if (isExternal(p)) return 0;
         int count = 0;
-        if(left(p) != null ){
+        if (left(p) != null) {
             count++;
         }
-        if(right(p) != null){
+        if (right(p) != null) {
             count++;
         }
         return count;
@@ -45,13 +45,31 @@ public abstract class AbstractBinaryTree<E> extends AbstractTree<E> implements B
     @Override
     public Iterable<Position<E>> children(Position<E> parent) throws IllegalArgumentException {
         List<Position<E>> snapshot = new ArrayList<>(2);
-        if(left(parent )!= null){
+        if (left(parent) != null) {
             snapshot.add(left(parent));
         }
-        if(right(parent) != null){
+        if (right(parent) != null) {
             snapshot.add(right(parent));
         }
         return snapshot;
+    }
+
+    public List<Position<E>> inOrder() {
+        List<Position<E>> snapshot = new ArrayList<>();
+        if (!isEmpty()) {
+            inOrderSubtree(root(), snapshot);
+        }
+        return snapshot;
+    }
+
+    private void inOrderSubtree(Position<E> position, List<Position<E>> snapshot) {
+        if (left(position) != null) {
+            inOrderSubtree(left(position),snapshot);
+        }
+        snapshot.add(position);
+        if(right(position)!=null){
+            inOrderSubtree(right(position),snapshot);
+        }
     }
 
 }

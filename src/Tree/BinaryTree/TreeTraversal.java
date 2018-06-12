@@ -1,8 +1,13 @@
 package Tree.BinaryTree;
 
 import ListADT.Position;
+import Queue.LinkedQueue;
+import Queue.Queue;
+import javafx.geometry.Pos;
 import sun.net.www.http.PosterOutputStream;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Consumer;
 
 /**
@@ -43,6 +48,21 @@ public class TreeTraversal<E> {
 
     }
 
+    private static List<Position<Integer>> BreadthFirstTraversal(){
+        Queue<Position<Integer>> linkedQueue = new LinkedQueue<>();
+        linkedQueue.enqueue(tree.root);
+        List<Position<Integer>> snapshot = new ArrayList<>();
+        while(!linkedQueue.isEmpty()){
+            Position<Integer> p = linkedQueue.dequeue();
+            snapshot.add(p);
+            for(Position<Integer> child : tree.children(p)){
+                linkedQueue.enqueue(child);
+            }
+
+        }
+        return snapshot;
+    }
+
     public static void main(String[] args) {
 
 
@@ -52,5 +72,17 @@ public class TreeTraversal<E> {
         tree.addRight(tree.root, 3);
         PreOrderTraversal();
         PostOrderTraversal();
+        tree.inOrder().forEach(new Consumer<Position<Integer>>() {
+            @Override
+            public void accept(Position<Integer> integerPosition) {
+                System.out.println(integerPosition.getElement());
+            }
+        });
+        BreadthFirstTraversal().forEach(new Consumer<Position<Integer>>() {
+            @Override
+            public void accept(Position<Integer> integerPosition) {
+                System.out.println(integerPosition.getElement());
+            }
+        });
     }
 }
