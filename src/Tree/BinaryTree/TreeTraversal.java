@@ -1,6 +1,7 @@
 package Tree.BinaryTree;
 
 import ListADT.Position;
+import sun.net.www.http.PosterOutputStream;
 
 import java.util.function.Consumer;
 
@@ -21,17 +22,24 @@ import java.util.function.Consumer;
  */
 
 public class TreeTraversal<E> {
-    LinkedBinaryTree<Integer> tree;
-    private void PreOrderTraversal() {
-            tree.positions().forEach(new Consumer<Position<Integer>>() {
-                @Override
-                public void accept(Position<Integer> integerPosition) {
-                    System.out.println(integerPosition);
-                }
-            });
+    static LinkedBinaryTree<Integer> tree;
+
+    private static void PreOrderTraversal() {
+        tree.positions().forEach(new Consumer<Position<Integer>>() {
+            @Override
+            public void accept(Position<Integer> integerPosition) {
+                System.out.println(integerPosition.getElement());
+            }
+        });
     }
 
-    private void PostOrderTraversal(Position<E> position) {
+    private static void PostOrderTraversal() {
+        tree.postOrder().forEach(new Consumer<Position<Integer>>() {
+            @Override
+            public void accept(Position<Integer> integerPosition) {
+                System.out.println(integerPosition.getElement());
+            }
+        });
 
     }
 
@@ -42,7 +50,7 @@ public class TreeTraversal<E> {
         tree.addRoot(1);
         tree.addLeft(tree.root, 2);
         tree.addRight(tree.root, 3);
-        TreeTraversal<Integer> treeTraversal = new TreeTraversal<>();
-        treeTraversal.PreOrderTraversal(tree.root);
+        PreOrderTraversal();
+        PostOrderTraversal();
     }
 }

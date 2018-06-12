@@ -13,28 +13,29 @@ import java.util.List;
 
 /**
  * Base class for Tree Implementation, which has some core functionalities of
+ *
  * @see Tree defined.
  */
-public abstract class AbstractTree<E> implements Tree<E>{
+public abstract class AbstractTree<E> implements Tree<E> {
 
     @Override
     public boolean isInternal(Position<E> p) throws IllegalArgumentException {
-        return numChildren(p)>0;
+        return numChildren(p) > 0;
     }
 
     @Override
     public boolean isExternal(Position<E> p) throws IllegalArgumentException {
-        return numChildren(p)==0;
+        return numChildren(p) == 0;
     }
 
     @Override
     public boolean isRoot(Position<E> p) throws IllegalArgumentException {
-        return p==root();
+        return p == root();
     }
 
     @Override
     public boolean isEmpty() {
-        return size()==0;
+        return size() == 0;
     }
 
     @Override
@@ -47,9 +48,10 @@ public abstract class AbstractTree<E> implements Tree<E>{
         return new ElementIterator();
     }
 
-    private class ElementIterator implements Iterator<E>{
+    private class ElementIterator implements Iterator<E> {
 
         Iterator<Position<E>> positionIterator = positions().iterator();
+
         @Override
         public boolean hasNext() {
             return positionIterator.hasNext();
@@ -66,19 +68,37 @@ public abstract class AbstractTree<E> implements Tree<E>{
         }
     }
 
-    private void preOrderSubtree(Position<E> p, List<Position<E>> snapshot){
+    private void preOrderSubtree(Position<E> p, List<Position<E>> snapshot) {
         snapshot.add(p);
-        for(Position<E> children : children(p)){
+        for (Position<E> children : children(p)) {
             snapshot.add(children);
         }
     }
 
-    private List<Position<E>> preOrder(){
+    private List<Position<E>> preOrder() {
         List<Position<E>> positions = new ArrayList<>();
-        if(!isEmpty()){
-            preOrderSubtree(root(),positions);
+        if (!isEmpty()) {
+            preOrderSubtree(root(), positions);
         }
         return positions;
     }
+
+    private void postOrderSubtree(Position<E> position, List<Position<E>> snapshot) {
+        for(Position<E> children : children(position)){
+            postOrderSubtree(children,snapshot);
+        }
+        snapshot.add(position);
+    }
+
+    public List<Position<E>> postOrder() {
+        List<Position<E>> positions = new ArrayList<>();
+        if (!isEmpty()) {
+            postOrderSubtree(root(), positions);
+        }
+        return positions;
+    }
+
 }
+
+
 
