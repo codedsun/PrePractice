@@ -7,7 +7,9 @@ package Tree;
 
 import ListADT.Position;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * Base class for Tree Implementation, which has some core functionalities of
@@ -37,7 +39,7 @@ public abstract class AbstractTree<E> implements Tree<E>{
 
     @Override
     public Iterable<Position<E>> positions() {
-        return null;
+        return preOrder();
     }
 
     @Override
@@ -62,6 +64,21 @@ public abstract class AbstractTree<E> implements Tree<E>{
         public void remove() {
             positionIterator.remove();
         }
+    }
+
+    private void preOrderSubtree(Position<E> p, List<Position<E>> snapshot){
+        snapshot.add(p);
+        for(Position<E> children : children(p)){
+            snapshot.add(children);
+        }
+    }
+
+    private List<Position<E>> preOrder(){
+        List<Position<E>> positions = new ArrayList<>();
+        if(!isEmpty()){
+            preOrderSubtree(root(),positions);
+        }
+        return positions;
     }
 }
 
