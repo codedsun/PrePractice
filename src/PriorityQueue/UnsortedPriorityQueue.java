@@ -16,6 +16,9 @@ public class UnsortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     private PositionalList<Entry<K, V>> list = new LinkedPositionalList<>();
 
+    public UnsortedPriorityQueue() {
+        super();
+    }
 
     @Override
     public int size() {
@@ -51,14 +54,14 @@ public class UnsortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     @Override
     public Entry<K, V> min() {
-        if(list.isEmpty()) return null;
+        if (list.isEmpty()) return null;
         else
-            return  findMin().getElement();
+            return findMin().getElement();
     }
 
     @Override
     public Entry<K, V> removeMin() {
-        if(list.isEmpty()) return null;
+        if (list.isEmpty()) return null;
         else return list.remove(findMin());
     }
 }
