@@ -64,7 +64,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     @Override
     public Entry<K, V> insert(K key, V value) throws IllegalArgumentException {
-        return;
+        return null;
     }
 
     @Override
