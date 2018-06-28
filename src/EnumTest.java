@@ -3,7 +3,7 @@
  */
 
 enum Human{
-    MALE, FEMALE;
+    MALE, FEMALE
 }
 public class EnumTest {
 

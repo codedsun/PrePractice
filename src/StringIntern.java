@@ -1,10 +1,10 @@
 public class StringIntern {
     @Override
-    protected void finalize() throws Throwable {
+    protected void finalize() {
         System.out.println("Finalized ");
     }
 
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) {
 
 
         String s = "Suneet";

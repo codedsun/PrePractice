@@ -4,9 +4,9 @@ public class StaticDynamicBinding {
     public static void main(String[] args) {
         Cat cat = new Cat();
         cat.testInstanceMethod();
-        cat.testClassMethod();
+        Cat.testClassMethod();
         Animal animal = cat;
-        animal.testClassMethod();
+        Animal.testClassMethod();
         animal.testInstanceMethod();
 
 

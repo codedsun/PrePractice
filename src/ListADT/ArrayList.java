@@ -16,7 +16,7 @@ public class ArrayList<E> implements List<E> {
     private  int size = 0;
 
     public ArrayList(int CAPACITY){
-        this.CAPACITY = CAPACITY;
+        ArrayList.CAPACITY = CAPACITY;
         data = (E[]) new Object[CAPACITY];
 
     }
@@ -92,8 +92,7 @@ public class ArrayList<E> implements List<E> {
     }
 
     private boolean checkIndex(int i){
-        if(i>=0 && i<=size) return true;
-        else return false;
+        return i >= 0 && i <= size;
     }
 }
 

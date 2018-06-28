@@ -1,7 +1,7 @@
 package Multithreading;
 
 class Line{
-    synchronized public void getLine() throws InterruptedException {
+    synchronized public void getLine() {
         for(int i =1;i<10;i++){
             System.out.println("Thread id "+Thread.currentThread().getId()+" I= "+i);
             try{
@@ -25,7 +25,7 @@ class Train extends Thread{
     public void run() {
         try {
             line.getLine();
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

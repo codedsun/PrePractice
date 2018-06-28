@@ -31,7 +31,7 @@ public class IslandOfIsolation {
     }
 
     @Override
-    protected void finalize() throws Throwable {
+    protected void finalize() {
         System.out.println("GC Called");
     }
 }

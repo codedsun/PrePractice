@@ -230,7 +230,7 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
     public static void main(String[] args) {
         LinkedBinaryTree<Integer> tree = new LinkedBinaryTree<>();
         tree.addRoot(1);
-        tree.addLeft((Position<Integer>) tree.root,2);
+        tree.addLeft(tree.root,2);
         System.out.println(tree.size());
 
     }

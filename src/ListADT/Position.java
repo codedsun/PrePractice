@@ -6,5 +6,5 @@ package ListADT;
  * @param <E>
  */
 public interface Position<E> {
-    public E getElement() throws IllegalStateException;
+    E getElement() throws IllegalStateException;
 }

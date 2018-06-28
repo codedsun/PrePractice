@@ -13,8 +13,7 @@ public class BalancedBrackets {
     static boolean match(char a, char b){
         if(a=='(' && b==')') return true;
         if(a=='[' && b==']') return true;
-        if(a=='{' && b=='}') return true;
-        else return false;
+        return a == '{' && b == '}';
     }
     static String isBalanced(String s) {
         // Complete this function

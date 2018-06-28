@@ -10,7 +10,7 @@ public class NULLCheck {
         Integer i1 =10;
         System.out.println(i instanceof Integer);
         System.out.println(i1 instanceof Integer);
-        check.Suneet();
+        Suneet();
     }
 
     private static void Suneet(){

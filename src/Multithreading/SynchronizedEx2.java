@@ -8,7 +8,7 @@ package Multithreading;
 //Class to send msg provides the method send
 
 class Sender{
-   void send(String msg) throws InterruptedException {
+   void send(String msg) {
         System.out.println("Sending "+msg+ " ID : "+Thread.currentThread().getId());
         try{
             Thread.sleep(1000);
@@ -37,7 +37,7 @@ class SendThread extends Thread{
         synchronized (sender){
             try {
                 sender.send(msg);
-            } catch (InterruptedException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -47,7 +47,7 @@ class SendThread extends Thread{
 
 public class SynchronizedEx2 {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Sender sender = new Sender();
         SendThread sendThread = new SendThread("Hi",sender);
         SendThread sendThread1 = new SendThread("Hello",sender);
