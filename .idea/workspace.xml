@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/CompetetiveProgramming/Hackerrank/Stack/BalancedBrackets.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/CompetetiveProgramming/Hackerrank/Stack/BalancedBrackets.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/CompetetiveProgramming/StaticDynamicBinding.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/CompetetiveProgramming/StaticDynamicBinding.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Inheritance/Animal.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Inheritance/Animal.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Inheritance/Person.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Inheritance/Person.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/IslandOfIsolation.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/IslandOfIsolation.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/ListADT/ArrayList.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/ListADT/ArrayList.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/ListADT/Test.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/ListADT/Test.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Line.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Line.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/SendThread.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/SendThread.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Sender.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Sender.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/SynchronizedEx2.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/SynchronizedEx2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Train.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/Multithreading/Train.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/NULLCheck.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/NULLCheck.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/NestedStaticClass.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/NestedStaticClass.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/PrePractice/StringIntern.class" afterPath="$PROJECT_DIR$/out/production/PrePractice/StringIntern.class" />
-      <change beforePath="$PROJECT_DIR$/src/CompetetiveProgramming/Hackerrank/Stack/BalancedBrackets.java" afterPath="$PROJECT_DIR$/src/CompetetiveProgramming/Hackerrank/Stack/BalancedBrackets.java" />
-      <change beforePath="$PROJECT_DIR$/src/EnumTest.java" afterPath="$PROJECT_DIR$/src/EnumTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Animal.java" afterPath="$PROJECT_DIR$/src/Inheritance/Animal.java" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/Person.java" afterPath="$PROJECT_DIR$/src/Inheritance/Person.java" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceAndAbstract/InterfaceTest.java" afterPath="$PROJECT_DIR$/src/InterfaceAndAbstract/InterfaceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/IslandOfIsolation.java" afterPath="$PROJECT_DIR$/src/IslandOfIsolation.java" />
-      <change beforePath="$PROJECT_DIR$/src/ListADT/ArrayList.java" afterPath="$PROJECT_DIR$/src/ListADT/ArrayList.java" />
-      <change beforePath="$PROJECT_DIR$/src/ListADT/Position.java" afterPath="$PROJECT_DIR$/src/ListADT/Position.java" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/MethodSync.java" afterPath="$PROJECT_DIR$/src/Multithreading/MethodSync.java" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/SemaphoreTest.java" afterPath="$PROJECT_DIR$/src/Multithreading/SemaphoreTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/SynchronizedEx2.java" afterPath="$PROJECT_DIR$/src/Multithreading/SynchronizedEx2.java" />
-      <change beforePath="$PROJECT_DIR$/src/NULLCheck.java" afterPath="$PROJECT_DIR$/src/NULLCheck.java" />
-      <change beforePath="$PROJECT_DIR$/src/NestedStaticClass.java" afterPath="$PROJECT_DIR$/src/NestedStaticClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/StaticDynamicBinding.java" afterPath="$PROJECT_DIR$/src/StaticDynamicBinding.java" />
-      <change beforePath="$PROJECT_DIR$/src/StringIntern.java" afterPath="$PROJECT_DIR$/src/StringIntern.java" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTree/LinkedBinaryTree.java" afterPath="$PROJECT_DIR$/src/Tree/BinaryTree/LinkedBinaryTree.java" />
-    </list>
+    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +20,7 @@
       <file leaf-file-name="HeapPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heap/HeapPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="945">
               <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,41 +49,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Inheritance/Animal.java">
+      <file leaf-file-name="ArrayListDynamic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListADT/ArrayListDynamic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedPositionalList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListADT/LinkedPositionalList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicMethodDispatch/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Inheritance/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PriorityQueue/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Hackerrank/WeekOfCode37/SimpleLanguage.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Hackerrank/WeekOfCode37/DynamicLineIntersection.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codechef/CODEX003.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codechef/CLASSXII/CODEX003.java" />
@@ -200,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/Multithreading/MethodSync.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/Person.java" />
         <option value="$PROJECT_DIR$/src/Inheritance/Animal.java" />
+        <option value="$PROJECT_DIR$/src/DynamicMethodDispatch/Student.java" />
       </list>
     </option>
   </component>
@@ -232,6 +193,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,44 +208,10 @@
               <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ListADT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ListADT" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedPositionalList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PriorityQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -305,13 +235,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.CollegeStudent">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="CollegeStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DynamicMethodDispatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DynamicMethodDispatch.CollegeStudent" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PrePractice" />
+      <envs />
     </configuration>
     <configuration name="DiverseTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -359,25 +308,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Inheritance.Person" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PrePractice" />
-      <envs />
-    </configuration>
-    <configuration name="Problem281A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CompetetiveProgramming.Codeforces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="CompetetiveProgramming.Codeforces.Problem281A" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -483,19 +413,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Problem281A" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinkedBinaryTree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TreeTraversal" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DiverseTeam" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Person" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LinkedBinaryTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TreeTraversal" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DiverseTeam" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Person" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CollegeStudent" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Person" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreeTraversal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DiverseTeam" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LinkedBinaryTree" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Problem281A" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CollegeStudent" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Person" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TreeTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DiverseTeam" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinkedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -526,20 +456,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32348806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3208633" sideWeight="0.5146413" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28270042" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28270042" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30942336" sideWeight="0.48535872" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -550,7 +482,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32348806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -599,13 +530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SwapObjectsSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -617,13 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListADT/ArrayListDynamic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -845,17 +762,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListADT/PositionalList.java">
+    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/AbstractPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="-196">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListADT/LinkedPositionalList.java">
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/SynchronizedEx2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="159" column="5" lean-forward="false" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+        <state relative-caret-position="121">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/MethodSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#802#803#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -867,16 +816,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue/AbstractPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/HeapPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="945">
           <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -904,42 +846,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/SynchronizedEx2.java">
+    <entry file="file://$PROJECT_DIR$/src/ListADT/ArrayListDynamic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/MethodSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inheritance/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListADT/PositionalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListADT/LinkedPositionalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicMethodDispatch/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
