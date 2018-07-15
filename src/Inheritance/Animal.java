@@ -10,13 +10,14 @@ package Inheritance;
  * of another class. Eg Mammal -> Person, Parents -> Child // Please don;t assume them as Kotlin operator lol
  */
 public class Animal {
-    public  int var = 10;
+    public int var = 10;
     boolean canReproduce;
     int legs;
 
     Animal(boolean canReproduce, int legs) {
         this.canReproduce = canReproduce;
         System.out.println(this.getClass());
+        System.out.println(this.hashCode());
         this.legs = legs;
     }
 
