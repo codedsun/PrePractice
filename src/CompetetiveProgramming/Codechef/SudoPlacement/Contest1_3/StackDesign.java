@@ -1,4 +1,4 @@
-package CompetetiveProgramming.Codechef.SudoPlacement;
+package CompetetiveProgramming.Codechef.SudoPlacement.Contest1_3;
 
 import java.util.Scanner;
 import java.util.Stack;
