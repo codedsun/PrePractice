@@ -1,4 +1,4 @@
-package Tree.GFG_BinaryTree;
+package Tree.GFG_BinaryTree.Introduction;
 
 /**
  * @author : codedsun

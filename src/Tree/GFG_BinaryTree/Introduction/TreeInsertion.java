@@ -1,4 +1,4 @@
-package Tree.GFG_BinaryTree;
+package Tree.GFG_BinaryTree.Introduction;
 
 import java.util.LinkedList;
 import java.util.Queue;

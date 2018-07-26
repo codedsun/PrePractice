@@ -1,4 +1,4 @@
-package Tree.GFG_BinaryTree;
+package Tree.GFG_BinaryTree.Introduction;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -78,7 +78,9 @@ public class ExpressionTreeCreation {
         }
 
         root = stack.pop();
+        System.out.println(ExpressionTreeEvaluation.evaluateTree(root));
         inOrder(root);
+
 
     }
 
