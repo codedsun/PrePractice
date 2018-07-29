@@ -33,10 +33,10 @@ public class InOrderTraversalWithoutRecursion {
         root.left.right = new Node(5);
         root.right = new Node(3);
 
-        inOrderWithoutStack(root);
+        inOrderWithoutRecursion(root);
     }
 
-    private static void inOrderWithoutStack(Node root) {
+    private static void inOrderWithoutRecursion(Node root) {
         Stack<Node> stack = new Stack<>();
         Node current = root;
         stack.push(current);
