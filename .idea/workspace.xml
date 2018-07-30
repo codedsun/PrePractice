@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="" />
+    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +17,9 @@
       <FILTER>CompetetiveProgramming.Hackerrank.Stack.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/PrePractice$Shoocal.coverage" NAME="Shoocal Coverage Results" MODIFIED="1532853985007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PrePractice$SumofInorder.coverage" NAME="SumofInorder Coverage Results" MODIFIED="1532975321522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tree.GFG_BinaryTree.Traversals.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/PrePractice$InOrderTraversalWithoutRecursion.coverage" NAME="InOrderTraversalWithoutRecursion Coverage Results" MODIFIED="1532697387574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tree.GFG_BinaryTree.Traversals.*</FILTER>
     </SUITE>
@@ -31,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostOrderFromPreOrderinBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostOrderFromPreOrderinBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/PostOrderFromPreOrderinBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="526">
               <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumofInorder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -69,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Multithreading/MethodSync.java" />
         <option value="$PROJECT_DIR$/src/DynamicMethodDispatch/Student.java" />
         <option value="$PROJECT_DIR$/src/Association_Composition_Aggregation/Association.java" />
         <option value="$PROJECT_DIR$/src/Association_Composition_Aggregation/Aggregation.java" />
@@ -120,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/TitleCase.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/PostOrderFromAnyElse.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/PostOrderFromPreOrderinBST.java" />
+        <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java" />
       </list>
     </option>
   </component>
@@ -215,32 +230,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PostOrderFromPreOrderinBST">
+  <component name="RunManager" selected="Application.SumofInorder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="BreadthFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Tree.GFG_BinaryTree.Traversals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Tree.GFG_BinaryTree.Traversals.BreadthFirst" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PrePractice" />
-      <envs />
     </configuration>
     <configuration name="InOrderTraversalWithoutRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -288,6 +284,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Tree.GFG_BinaryTree.Traversals.PostOrderFromPreOrderinBST" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PrePractice" />
+      <envs />
+    </configuration>
+    <configuration name="SumofInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tree.GFG_BinaryTree.Traversals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Tree.GFG_BinaryTree.Traversals.SumofInorder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -388,19 +403,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BreadthFirst" />
-      <item index="1" class="java.lang.String" itemvalue="Application.InOrderTraversalWithoutRecursion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InOrderWithoutStack" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TitleCase" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PostOrderFromPreOrderinBST" />
+      <item index="0" class="java.lang.String" itemvalue="Application.InOrderTraversalWithoutRecursion" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InOrderWithoutStack" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TitleCase" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PostOrderFromPreOrderinBST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SumofInorder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PostOrderFromPreOrderinBST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TitleCase" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InOrderWithoutStack" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InOrderTraversalWithoutRecursion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BreadthFirst" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SumofInorder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PostOrderFromPreOrderinBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TitleCase" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InOrderWithoutStack" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InOrderTraversalWithoutRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -431,6 +446,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -440,8 +456,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066104" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.278481" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.278481" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.302391" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -458,7 +475,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -495,7 +511,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -513,14 +549,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadYield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Suneet2.java" />
     <entry file="file://$PROJECT_DIR$/src/Suneet.java" />
     <entry file="file://$PROJECT_DIR$/src/Inheritance/Person.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -859,8 +887,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/PostOrderFromPreOrderinBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="526">
           <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListADT/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/SumofInorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="75" column="20" lean-forward="false" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
           <folding />
         </state>
       </provider>
