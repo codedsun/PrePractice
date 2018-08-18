@@ -16,8 +16,8 @@ import java.util.Random;
  * and it also provide the implementation of hashing function which uses the @fun(hashCode()) method
  */
 public abstract class AbstractHashMap<K, V> extends AbstractMap<K, V> {
-    private int n = 0;
-    private int capacity;
+    protected int n = 0;
+    protected int capacity;
     private int prime;
     private long scale, shift; //the shift and scaling factors used in hashmap
 
@@ -27,6 +27,7 @@ public abstract class AbstractHashMap<K, V> extends AbstractMap<K, V> {
         Random random = new Random();
         scale = random.nextInt((prime - 1)) + 1;
         shift = random.nextInt(prime);
+        createTable();
 
     }
 
