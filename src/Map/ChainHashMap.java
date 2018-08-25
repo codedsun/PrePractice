@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 import PriorityQueue.Entry;
 
 /**
- * An implmentation of Seperate chaining (Chain HashMap) for collison resolution
+ * An implementation of Seperate chaining (Chain HashMap) for collison resolution
  * In this the entire hashtable is represented as array of secondary hashmap
  * <p>
  * In this we have assumed a array of map (HashTable) whose index are set to null at initial and
