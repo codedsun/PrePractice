@@ -32,7 +32,7 @@
       <file leaf-file-name="Problem580A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem580A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="0">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
@@ -52,7 +52,7 @@
       <file leaf-file-name="Problem148A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem148A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="360">
               <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,12 +61,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chcek.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chcek.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Chcek.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Inheritance/ParentClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/FoldableBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/ExpressionTree.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/ExpressionTreeConstruction.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codechef/SudoPlacement/StackDesign.java" />
@@ -150,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem479A.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem148A.java" />
         <option value="$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Chcek.java" />
+        <option value="$PROJECT_DIR$/src/Inheritance/ParentClass.java" />
       </list>
     </option>
   </component>
@@ -182,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,16 +224,19 @@
               <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CompetetiveProgramming" type="462c0819:PsiDirectoryNode" />
-              <item name="Codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrePractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="ParentClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -221,7 +244,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Chain&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/Map/ChainHashMap.java&#10;Iterator&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Iterator.class&#10;Queue&#9;PSI&#9;JAVA://Queue.LinkedQueue&#10;Traver&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/Tree/BinaryTree/TreeTraversal.java&#10;Stack&#9;PSI&#9;JAVA://Stack.Stack&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/String.java&#10;;&#9;null&#9;null&#10;Object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class&#10;Dy&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/CompetetiveProgramming/Hackerrank/WeekOfCode37/DynamicLineIntersection.java&#10;ThreadPool&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/com/sun/corba/se/spi/orbutil/threadpool/ThreadPool.java&#10;java.util.Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;ForEach&#9;PSI&#9;JAVA://com.codedsun.practice.java8.ForEach" />
+    <property name="SearchEverywhereHistoryKey" value="Ite&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Iterable.java&#10;Chain&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/Map/ChainHashMap.java&#10;Iterator&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Iterator.class&#10;Queue&#9;PSI&#9;JAVA://Queue.LinkedQueue&#10;Traver&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/Tree/BinaryTree/TreeTraversal.java&#10;Stack&#9;PSI&#9;JAVA://Stack.Stack&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/String.java&#10;;&#9;null&#9;null&#10;Object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Object.class&#10;Dy&#9;FILE&#9;file:///Users/suneetsrivastava/IdeaProjects/PrePractice/src/CompetetiveProgramming/Hackerrank/WeekOfCode37/DynamicLineIntersection.java&#10;ThreadPool&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/com/sun/corba/se/spi/orbutil/threadpool/ThreadPool.java&#10;java.util.Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;ForEach&#9;PSI&#9;JAVA://com.codedsun.practice.java8.ForEach" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -242,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chcek">
+  <component name="RunManager" selected="Application.ChildClass">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -269,14 +292,14 @@
       <module name="PrePractice" />
       <envs />
     </configuration>
-    <configuration name="Problem148A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="CompetetiveProgramming.Codeforces.*" />
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="CompetetiveProgramming.Codeforces.Problem148A" />
+      <option name="MAIN_CLASS_NAME" value="Inheritance.ChildClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -288,14 +311,14 @@
       <module name="PrePractice" />
       <envs />
     </configuration>
-    <configuration name="Problem337A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem148A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="CompetetiveProgramming.Codeforces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="CompetetiveProgramming.Codeforces.Problem337A" />
+      <option name="MAIN_CLASS_NAME" value="CompetetiveProgramming.Codeforces.Problem148A" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -420,19 +443,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Problem337A" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Problem580A" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Problem479A" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Problem148A" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Chcek" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Problem580A" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Problem479A" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Problem148A" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Chcek" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ChildClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Chcek" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Problem148A" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Problem479A" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Problem580A" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Problem337A" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ChildClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Chcek" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Problem148A" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Problem479A" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Problem580A" />
       </list>
     </recent_temporary>
   </component>
@@ -463,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -472,12 +496,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066104" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27707455" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27707455" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33895922" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3505007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -592,20 +616,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/BreadthFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TitleCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/InOrderTraversalWithoutRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -675,13 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -913,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem580A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="0">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
@@ -929,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem148A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="360">
           <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -937,11 +940,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Chcek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inheritance/ParentClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
