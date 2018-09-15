@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26ebc81c-eee2-4968-bd57-af38687d30db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Searching.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Searching.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree/Searching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="62" column="24" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -58,6 +56,23 @@
                 <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deletion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree/Deletion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/BreadthFirst.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/InOrderWithoutStack.java" />
         <option value="$PROJECT_DIR$/src/Tree/GFG_BinaryTree/Traversals/InOrderTraversalWithoutRecursion.java" />
         <option value="$PROJECT_DIR$/src/Shoocal.java" />
@@ -144,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/Tree/BinarySearchTree/BinarySearchTreeInsertion.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinarySearchTree/Insertion.java" />
         <option value="$PROJECT_DIR$/src/Tree/BinarySearchTree/Searching.java" />
+        <option value="$PROJECT_DIR$/src/Tree/BinarySearchTree/Deletion.java" />
       </list>
     </option>
   </component>
@@ -255,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Searching">
+  <component name="RunManager" selected="Application.Deletion">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -282,14 +297,14 @@
       <module name="PrePractice" />
       <envs />
     </configuration>
-    <configuration name="FileMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="Tree.BinarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="FileHandling.FileMerge" />
+      <option name="MAIN_CLASS_NAME" value="Tree.BinarySearchTree.Deletion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -301,14 +316,14 @@
       <module name="PrePractice" />
       <envs />
     </configuration>
-    <configuration name="FileReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FileMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="FileHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="FileHandling.FileReading" />
+      <option name="MAIN_CLASS_NAME" value="FileHandling.FileMerge" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -433,19 +448,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileReading" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileMerge" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Problem486A" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BinarySearchTreeInsertion" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Searching" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FileMerge" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Problem486A" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BinarySearchTreeInsertion" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Searching" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Deletion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Searching" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BinarySearchTreeInsertion" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Problem486A" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileMerge" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileReading" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Deletion" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Searching" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BinarySearchTreeInsertion" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Problem486A" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FileMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -485,9 +501,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066104" sideWeight="0.5171674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27707455" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27707455" sideWeight="0.48682284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33895922" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33895922" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -620,7 +636,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Scanner.java" />
     <entry file="file://$PROJECT_DIR$/src/CompetetiveProgramming/Codeforces/Problem236A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree/Searching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -994,6 +1009,21 @@
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTree/Deletion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
           </folding>
         </state>
       </provider>
